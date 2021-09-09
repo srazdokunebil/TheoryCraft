@@ -124,6 +124,7 @@ function GetRank(spellname, overheal, healAmount)
 	end
 end
 
+
 function TheoryCraftCast(spellname, overheal)
 	if UnitHealthMax("target") == 100 then
 		Print("hi")
