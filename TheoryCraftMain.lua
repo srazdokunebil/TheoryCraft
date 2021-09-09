@@ -100,10 +100,10 @@ function dumbass()
 end
 
 function GetRank(spellname, overheal, healAmount)
-	Print(spellname .. " " .. overheal .. " " .. healAmount)
+	--Print(spellname .. " " .. overheal .. " " .. healAmount)
 	if overheal == nil then overheal = 1 end
 	--local healAmount = healthCur - healthMax
-	Print("healAmount: " .. healAmount)
+	--Print("healAmount: " .. healAmount)
 	local u, highest, s = healAmount, 1
 	u = u * overheal
 	for i = 1,20 do
@@ -137,11 +137,11 @@ function TheoryCraftCast(spellname, overheal)
 		s = TheoryCraft_GetSpellDataByName(spellname, i)
 		if (s) and (s.averagehealnocrit) and (s.averagehealnocrit > u) then
 			CastSpellByName(spellname.."(Rank "..i..")")
-			Print(spellname.."(Rank "..i..")")
+			--Print(spellname.."(Rank "..i..")")
 			return i
 		end
 	end
-	Print("wtf") -- it is not aware of spell ranges, therefore it defaults to this if it goes over max
+	--Print("wtf") -- it is not aware of spell ranges, therefore it defaults to this if it goes over max
 	CastSpellByName(spellname)
 end
 
