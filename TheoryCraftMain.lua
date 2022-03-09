@@ -109,11 +109,11 @@ function GetRank(spellname, overheal, healAmount)
 	for i = 1,20 do
 		s = TheoryCraft_GetSpellDataByName(spellname, i)
 		if (s) and (s.averagehealnocrit) and (s.averagehealnocrit > u) then
-			CastSpellByName(spellname.."(Rank "..i..")")
+			--CastSpellByName(spellname.."(Rank "..i..")")
 			return i
 		end
 	end
-	CastSpellByName(spellname)
+	--CastSpellByName(spellname)
 	-- hardcoding these value for dispatch, not doing it for everyone else :P
 	if spellname == "Greater Heal" then
 		return 5

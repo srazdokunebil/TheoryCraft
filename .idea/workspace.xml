@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1ulSBUHiqneZRsQChduEsanMxYP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -17,10 +20,5 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="4827" y="300" width="1276" height="801" key="find.popup" timestamp="1625374186599">
-      <screen x="3840" y="0" width="2560" height="1400" />
-    </state>
-    <state x="4827" y="300" width="1276" height="801" key="find.popup/0.0.2560.1400/3840.0.2560.1400@3840.0.2560.1400" timestamp="1625374186599" />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
 </project>
