@@ -114,14 +114,21 @@ function GetRank(spellname, overheal, healAmount)
 		end
 	end
 	--CastSpellByName(spellname)
-	-- hardcoding these value for dispatch, not doing it for everyone else :P
+	-- if beyond max amount, declare maximum ranks per spell otherwise will return 0
 	if spellname == "Greater Heal" then
 		return 5
 	elseif spellname == "Renew" then
 		return 10
 	elseif spellname == "Flash Heal" then
 		return 7
+	elseif spellname == "Healing Touch" then
+		return 10
+	elseif spellname == "Regrowth" then
+		return 9
+	elseif spellname == "Rejuvenation" then
+		return 10
 	end
+
 end
 
 
